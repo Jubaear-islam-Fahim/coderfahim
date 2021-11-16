@@ -1,0 +1,60 @@
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.portfolioItem img {
+    width: 100%;
+    transition: all .3s linear;
+}
+
+.portfolioItem:hover img{
+    transform: scale(1.1);
+}
+
+.portfolioItem {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 12px;
+}
+
+
+.portfolioLink { 
+    overflow: hidden;
+}
+
+.portfolioButton {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioButton .button {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    color: var(--black-color);
+    border: 0;
+    min-width: 70px;
+    min-height: 50px;
+    font-size: 22px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.portfolioContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23%, 1fr));
+    gap: 1.2vw;
+}
+
+ 
+@media (min-width: 320px) and (max-width: 991.98px){
+    .portfolioContent { 
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+        gap: 10px;
+    }   
+}

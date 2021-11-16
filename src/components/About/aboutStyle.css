@@ -1,0 +1,183 @@
+.about-images {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 40px 0px 0;
+}
+
+.about-images img {
+    width: auto;
+    margin: 0 auto;
+    display: grid;
+}
+
+.aboutMe-content {}
+
+.aboutMe-content p {
+    padding-bottom: 25px;
+}
+
+.about-btn {
+    gap: 30px;
+    position: relative;
+}
+
+.about-btn::before {
+    content: "";
+    background: var(--primary-color);
+    height: 2px;
+    width: 31%;
+    position: absolute;
+    left: -35%;
+    top: 13px;
+}
+
+.about-btn .nav-link {
+    color: var(--black-color);
+    background-color: unset !important;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.about-btn .nav-link.active {
+    color: var(--primary-color);
+
+}
+ 
+/* Experience */
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1vw;
+    margin-top: 5px;
+}
+
+.experience-text {
+    grid-column: 1/ -1;
+}
+
+.experience-item {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.experience-img {
+    align-self: center;
+}
+
+.experience-img img {
+    width: 100%;
+    height: 50px;
+}
+
+
+.experience-item i {
+    font-size: 40px;
+    line-height: 0;
+}
+
+.experience-item .title {
+    padding-top: 10px;
+}
+
+
+
+/* skills */
+
+.skills {
+    display: grid;
+    gap: 20px;
+}
+
+.progressbar-item {}
+
+.progressbar-item .h6 {
+    font-weight: 600;
+}
+
+.progress {
+    height: .4rem;
+    background-color: #8c99c5;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+.education-content {
+    display: grid;
+    gap: 20px;
+}
+
+.education-item {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.date-of-time {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.description {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.hading-content .title {
+    padding-bottom: 5px;
+}
+
+.description p {
+    font-size: 13px;
+}
+
+
+@media (min-width : 320px) and (max-width : 991.98px) {
+    .about-btn .nav-link {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .about-btn {
+        gap: 18px;
+    }
+
+    .experience {
+        grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+
+    }
+
+    .experience-item {
+        padding: 20px 5px;
+    }
+
+    .experience-item i {
+        font-size: 30px;
+    }
+
+    .experience-item .title {
+        font-size: 13px;
+    }
+
+    .hading-content .title { 
+        font-size: 16px;
+    }
+    .hading-content .text{
+        font-size: 14px;
+    }
+    .about-images img {
+        width: 50%; 
+    }
+}

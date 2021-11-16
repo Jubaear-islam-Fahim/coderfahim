@@ -1,0 +1,11 @@
+.features-img{
+    width: 40px;
+}
+
+.features-item .title{
+    font-weight: 600;
+}
+
+.features-item{
+    padding: 0 20px;
+}

@@ -1,0 +1,23 @@
+
+.work-img {
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    object-fit: cover;
+    right: 0;
+}
+
+.work-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.work-content p {
+    padding-top: 20px;
+}
+
+.work-description { 
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 20px;
+}

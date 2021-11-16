@@ -1,0 +1,38 @@
+ 
+
+.reviews-item {
+    padding: 25px 15px;
+}
+
+.slick-slider {
+    margin:0 -15px;
+}
+ 
+.reviews-ss {
+    display: grid;
+    gap: 25px;
+    background-color: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 35px;
+}
+
+.client-profile {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 10px;
+}
+
+.client-profile img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.client-text {
+    align-self: center;
+}
+
+.slick-dots li button:before{
+    font-size: 9px;
+}

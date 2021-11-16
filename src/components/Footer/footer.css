@@ -1,0 +1,16 @@
+.footer{
+    
+}
+
+.footer-content{
+    text-align: center;
+    border-top: 1px solid rgb(204 204 204 / 57%);
+    padding: 50px;
+}
+
+.footer-content p {
+    padding-top: 20px;
+}
+.footer-content a {
+    color: var(--primary-color);
+}

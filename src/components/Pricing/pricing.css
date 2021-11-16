@@ -1,0 +1,90 @@
+.pricing-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+    gap: 1.5rem;
+}
+
+
+.pricing-item {
+    background: var(--box-background);
+    box-shadow: var(--box-shadow);
+    display: grid;
+    padding: 2rem 0;
+}
+
+.pricing-item:nth-child(2) {
+    background: var(--primary-color);
+    box-shadow: 10px 10px 19px #9a96eb, -10px -10px 19px #e0deff;
+}
+
+.pricing-item:nth-child(2) p,
+.pricing-item:nth-child(2) {
+    color: #fff;
+}
+
+.pricing-btn,
+.pricing-list,
+.pricing-title,
+.pricing-name {
+    padding: 0 2rem;
+}
+
+.pricing-name {
+    border-bottom: 1px solid rgb(204 204 204 / 57%);
+    padding-bottom: 1.6rem;
+}
+
+.pricing-title {}
+
+.pricing-title .price-text {
+    margin-bottom: 0;
+    padding: 1.4rem 0;
+}
+
+.pricing-title .price-text sup {
+    font-size: 15px;
+    top: -20px;
+    color: var(--primary-color);
+}
+
+.pricing-item:nth-child(2) .pricing-title .price-text sup {
+    
+    color: var(--white-color);
+}
+
+.pricing-title p {
+    font-size: 15px;
+}
+
+.pricing-list {
+    padding: 1.5rem;
+    display: grid;
+    gap: 7px;
+}
+
+.pricing-list li {
+    padding-left: 7px;
+}
+
+.pricing-list li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    padding-right: 10px;
+    color: var(--primary-color); 
+}
+.pricing-item:nth-child(2) .pricing-list li::before{
+    color: #fff;
+}
+
+.pricing-btn {
+    margin-top: auto;
+}
+.pricing-item:nth-child(2) .theme-btn{
+    box-shadow: 10px 10px 19px #4741c1, -10px -10px 19px #433cc5;
+}
+.pricing-btn span {
+    display: block;
+    padding-top: 1.2rem;
+    font-size: 14px;
+}
