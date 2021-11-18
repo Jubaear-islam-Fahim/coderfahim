@@ -39,6 +39,9 @@ button {
     background: var(--primary-color);
     color: #fff;
 }
+.contact-content .theme-btn:hover {
+    background: var(--primary-color); 
+}
 
 .contact-about {
     display: grid;

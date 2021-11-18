@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div className="aboutMe-content pt-4">
             <p>
-                Hey! This is Jubaear Islam Fahim. Definitely, a young and creative web developer. Currently, I’m living in Dhaka, Bangladesh. Besides professional certification, I’m a self-learner and love a lot to explore and implement new skills.
+                Hey! I'm Jubaear Islam Fahim. Definitely, a young and creative web developer. Currently, I’m living in Dhaka, Bangladesh. Besides professional certification, I’m a self-learner and love a lot to explore and implement new skills.
 
             </p>
             <p>

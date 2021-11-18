@@ -21,10 +21,10 @@ function Top_header() {
                     </Col> 
                     <Col xs={12} md={6}>
                         <ul className="social-list ">
-                            <li><a href="https://www.facebook.com/profile.php?id=100006226397799"><FaFacebookF/></a></li>
-                            <li><a href="https://twitter.com/JubaearFahim"><FaTwitter/></a></li>
-                            <li><a href="https://www.linkedin.com/in/jubayer-islam-fahim-b78912164/"><FaLinkedinIn/></a></li> 
-                            <li><a href="skype:jubaearislam86664?chat"><FaSkype/></a></li> 
+                            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006226397799"><FaFacebookF/></a></li>
+                            <li><a target="_blank" href="https://twitter.com/JubaearFahim"><FaTwitter/></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/jubayer-islam-fahim-b78912164/"><FaLinkedinIn/></a></li> 
+                            <li><a target="_blank" href="skype:jubaearislam86664?chat"><FaSkype/></a></li> 
                         </ul> 
                     </Col> 
                 </Row>

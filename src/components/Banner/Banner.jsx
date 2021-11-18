@@ -42,9 +42,9 @@ function Banner() {
                                 <div class="social-share-inner">
                                     <div class="title">find me</div>
                                     <ul>
-                                        <li><a href="https://www.facebook.com/profile.php?id=100006226397799"><FiFacebook/></a></li>
-                                        <li><a href="https://twitter.com/JubaearFahim"><FiLinkedin/></a></li>
-                                        <li><a href="https://www.instagram.com/jubaearfahim/"><FiInstagram/></a></li>
+                                        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006226397799"><FiFacebook/></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/JubaearFahim"><FiLinkedin/></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/jubaearfahim/"><FiInstagram/></a></li>
                                     </ul>
                                 </div>
                                 <div class="social-share-inner">
