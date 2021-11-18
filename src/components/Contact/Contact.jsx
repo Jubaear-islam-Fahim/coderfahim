@@ -23,7 +23,7 @@ const Contact = () => {
                     <Col lg={12}>
                         <div className="contact-form-area">
                             <div className="contact-form">
-                                <Form name="coderFahim" method="POST" data-netlify="true">
+                                <Form name="coderFahim" method="POST" data-netlify="true" action="/success/">
                                     <input type="hidden" name="form-name" value="coderFahim" />
                                     <div className="contact-content">
                                         <FloatingLabel controlId="floatingName" label="YOUR NAME" className="form6">
@@ -77,9 +77,9 @@ const Contact = () => {
                                 <div class="social-share-inner">
                                     <div class="title">find with me</div>
                                     <ul>
-                                        <li><a href="#"><FiFacebook /></a></li>
-                                        <li><a href="#"><FiLinkedin /></a></li>
-                                        <li><a href="#"><FiInstagram /></a></li>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100006226397799"><FiFacebook/></a></li>
+                                        <li><a href="https://twitter.com/JubaearFahim"><FiLinkedin/></a></li>
+                                        <li><a href="https://www.instagram.com/jubaearfahim/"><FiInstagram/></a></li>
                                     </ul>
                                 </div>
                             </div>
