@@ -11,9 +11,11 @@ import pichaora from '../../assets/img/work/pichaora.jpg';
 import monteck from '../../assets/img/work/monteck.jpg';
 import Outdoorizm from '../../assets/img/work/Outdoorizm.jpg';
 import jobllow from '../../assets/img/work/jobllow.jpg';
+import yesmart from '../../assets/img/work/yesmart.jpg';
+import adshunt from '../../assets/img/work/adshunt.jpg';
+import schoolferris from '../../assets/img/work/schoolferris.jpg';
 
  
-
 class App extends React.Component {
     constructor(props) {
       super(props)
@@ -26,8 +28,8 @@ class App extends React.Component {
             },
             {
                 id: 2,
-                image: Buildhex,
-                url: 'http://thesoftking.com/html/buildhex/'
+                image: yesmart,
+                url: 'https://yesmart.netlify.app/'
             },
             {
                 id: 3,
@@ -68,6 +70,21 @@ class App extends React.Component {
                 id: 10,
                 image: jobllow,
                 url: 'https://jobllow.com/'
+            },
+            {
+                id: 11,
+                image: Buildhex,
+                url: 'http://thesoftking.com/html/buildhex/'
+            },
+            {
+                id: 12,
+                image: adshunt,
+                url: 'https://adshunt.netlify.app/'
+            },
+            {
+                id: 13,
+                image: schoolferris,
+                url: 'https://schoolferris.netlify.app/'
             },
           ],
           visible: 8,
