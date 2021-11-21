@@ -1,15 +1,21 @@
 import React from 'react';
-import { Container, Row, Col, Image, FloatingLabel, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image, FloatingLabel, Form, Button, Image } from 'react-bootstrap';
 // import Map from './Map';
 import './contact.css';
 
 import Mapimg from '../../assets/img/map.png';
 import { FiFacebook, FiLinkedin, FiInstagram, FiDownloadCloud } from "react-icons/fi";
 
+import img1 from '../../assets/test-img/career.png';
+import img2 from '../../assets/test-img/career2.png';
+import img3 from '../../assets/test-img/jobyfy.png.png';
 
 const Contact = () => {
     return (
         <div className="contact pt-100" id="contact">
+            <Image src={img1}/>
+            <Image src={img2}/>
+            <Image src={img3}/>
             <Container>
                 <Row>
                     <Col lg={6}>
