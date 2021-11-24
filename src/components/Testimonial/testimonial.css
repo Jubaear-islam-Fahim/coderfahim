@@ -1,45 +1,49 @@
- .reviews-item {
-     padding: 25px 15px;
- }
+.testimonial {
+    overflow: hidden;
+}
 
- .slick-slider {
-     margin: 0 -15px;
- }
+.reviews-item {
+    padding: 25px 15px;
+}
 
- .reviews-ss {
-     background-color: var(--box-background);
-     box-shadow: var(--box-shadow);
-     padding: 2.2vw;
-     min-height: 302px;
- }
+.slick-slider {
+    margin: 0 -15px;
+}
 
- .client-profile {
-     display: grid;
-     grid-template-columns: 80px 1fr;
-     gap: 10px;
-     margin-bottom: auto;
-     border-bottom: 1px solid #d9d9d9;
-     padding-bottom: 25px;
- }
+.reviews-ss {
+    background-color: var(--box-background);
+    box-shadow: var(--box-shadow);
+    padding: 2.2vw;
+    min-height: 302px;
+}
 
- .client-profile img {
-     width: 70px;
-     height: 70px;
-     object-fit: cover;
-     border-radius: 100px;
-     align-self: center;
- }
+.client-profile {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 10px;
+    margin-bottom: auto;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 25px;
+}
 
- .client-text {
-     align-self: center;
- }
+.client-profile img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100px;
+    align-self: center;
+}
 
- .slick-dots li button:before {
-     font-size: 9px;
- }
+.client-text {
+    align-self: center;
+}
 
- .description {
-     padding-top: 20px;
-     margin-top: 0;
-     border: 0;
- }
+.slick-dots li button:before {
+    font-size: 9px;
+}
+
+.description {
+    padding-top: 20px;
+    margin-top: 0;
+    border: 0;
+}

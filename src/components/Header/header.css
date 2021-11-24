@@ -87,3 +87,7 @@
 .btn-check:focus+.btn-primary, .btn-primary:focus, .btn-primary:hover{
     background: none !important;
 }
+
+.offcanvas-start { 
+    width: 270px; 
+}
