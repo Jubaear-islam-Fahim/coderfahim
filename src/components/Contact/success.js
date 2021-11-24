@@ -1,6 +1,6 @@
 import React from 'react';
 
-const success = () => {
+const Contact = () => {
     return (
         <div>
             Success Email 
@@ -8,4 +8,4 @@ const success = () => {
     )
 }
 
-export default success
+export default Contact
