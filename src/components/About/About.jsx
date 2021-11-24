@@ -24,7 +24,7 @@ const About = () => {
                 <Row className="item-gap pt-5">
                     <Col lg={5}>
                         <div className="about-images">
-                            <Image src={AboutImg} />
+                            <Image src={AboutImg} alt="coder fahim" />
                         </div>
                     </Col>
                     <Col lg={{span: 6, offset: 1}}>

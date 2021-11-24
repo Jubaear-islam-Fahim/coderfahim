@@ -17,7 +17,7 @@ function Banner() {
                 <Row>
                     <Col lg={{span: 4, offset: 2}} className="banner-col">
                         <div className="banner-profile-img">
-                            <Image src={BannerImg} className="profile images" width="100%" />
+                            <Image src={BannerImg} className="profile images" alt="coder fahim" width="100%" />
                         </div>
                     </Col>
                     <Col lg={6} className="banner-col">
