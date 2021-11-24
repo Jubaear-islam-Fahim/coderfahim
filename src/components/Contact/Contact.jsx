@@ -22,8 +22,9 @@ const Contact = () => {
                     <Col lg={12}>
                         <div className="contact-form-area">
                             <div className="contact-form">
-                                <Form name="coderFahim" method="POST" data-netlify="true" action="/success/">
+                                <Form name="coderFahim" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field" action="/success/">
                                     <input type="hidden" name="form-name" value="coderFahim" />
+                                    <div hidden><input name="bot-field" /></div>
                                     <div className="contact-content">
                                         <FloatingLabel controlId="floatingName" label="YOUR NAME" className="form6">
                                             <Form.Control type="text" name="name" placeholder="YOUR NAME" />
@@ -74,7 +75,7 @@ const Contact = () => {
                                     {/* <p><strong>Working Hours:</strong> 9 AM - 6 PM (Mon to Sat)</p> */}
                                 </address>
                                 <div class="social-share-inner">
-                                    <div class="title">find with me</div>
+                                    <div class="title">FIND ME</div>
                                     <ul>
                                         <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006226397799"><FiFacebook/></a></li>
                                         <li><a target="_blank" href="https://twitter.com/JubaearFahim"><FiLinkedin/></a></li>

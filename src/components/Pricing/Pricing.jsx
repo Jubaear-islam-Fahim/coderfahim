@@ -36,7 +36,7 @@ const Pricing = () => {
                                     </ul>
                                 </div>
                                 <div className="pricing-btn"> 
-                                    <a href="#" className="theme-btn btn-md">Choose Plan</a> 
+                                    <a href="#contact" className="theme-btn btn-md">Choose Plan</a> 
                                     <span>1 Days Delivery</span>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const Pricing = () => {
                                     </ul>
                                 </div>
                                 <div className="pricing-btn">
-                                    <a href="#" className="theme-btn btn-md">Choose Plan</a>
+                                    <a href="#contact" className="theme-btn btn-md">Choose Plan</a>
                                     <span>One Page 2Days Delivery</span>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ const Pricing = () => {
                                     </ul>
                                 </div>
                                 <div className="pricing-btn">
-                                    <a href="#" className="theme-btn btn-md">Choose Plan</a>
+                                    <a href="#contact" className="theme-btn btn-md">Choose Plan</a>
                                     <span>Days Delivery</span>
                                 </div>
                             </div>
