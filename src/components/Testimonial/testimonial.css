@@ -6,11 +6,11 @@
      margin: 0 -15px;
  }
 
- .reviews-ss { 
+ .reviews-ss {
      background-color: var(--box-background);
      box-shadow: var(--box-shadow);
      padding: 2.2vw;
-     min-height: 290px;
+     min-height: 302px;
  }
 
  .client-profile {
@@ -41,5 +41,5 @@
  .description {
      padding-top: 20px;
      margin-top: 0;
-     border: 0; 
+     border: 0;
  }

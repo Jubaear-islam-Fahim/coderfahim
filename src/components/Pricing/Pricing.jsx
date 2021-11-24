@@ -21,10 +21,10 @@ const Pricing = () => {
                             <div className="pricing-item">
                                 <div className="pricing-top">
                                     <h4 className="pricing-name">
-                                        Intro
+                                        Hourly
                                     </h4>
                                     <div className="pricing-title">
-                                        <div className="h1 price-text">$12 <sup>/Month</sup></div>
+                                        <div className="h1 price-text">$5 <sup>/Per Hour</sup></div>
                                         <p>Making this the first true generator on the Internet. It uses a dictionary .</p>
                                     </div>
                                     <ul className="pricing-list">
@@ -32,21 +32,21 @@ const Pricing = () => {
                                         <li>Design Customization</li>
                                         <li>Psd to Html</li>
                                         <li>Html to Reactjs</li>
-                                        <li>Content Upload</li>
+                                        <li>Psd to WordPress</li>
                                     </ul>
                                 </div>
                                 <div className="pricing-btn"> 
                                     <a href="#" className="theme-btn btn-md">Choose Plan</a> 
-                                    <span>2 Days Delivery</span>
+                                    <span>1 Days Delivery</span>
                                 </div>
                             </div>
                             <div className="pricing-item">
                                 <div className="pricing-top">
                                     <h4 className="pricing-name">
-                                        Pro
+                                        Month
                                     </h4>
                                     <div className="pricing-title">
-                                        <div className="h1 price-text">$12 <sup>/Month</sup></div>
+                                        <div className="h1 price-text">$350 <sup>/Minimum</sup></div>
                                         <p>Making this the first true generator on the Internet. It uses a dictionary .</p>
                                     </div>
                                     <ul className="pricing-list">
@@ -54,21 +54,22 @@ const Pricing = () => {
                                         <li>Design Customization</li>
                                         <li>Psd to Html</li>
                                         <li>Html to Reactjs</li>
+                                        <li>Psd to WordPress</li>
                                         <li>Content Upload</li> 
                                     </ul>
                                 </div>
                                 <div className="pricing-btn">
                                     <a href="#" className="theme-btn btn-md">Choose Plan</a>
-                                    <span>2 Days Delivery</span>
+                                    <span>One Page 2Days Delivery</span>
                                 </div>
                             </div>
                             <div className="pricing-item">
                                 <div className="pricing-top">
                                     <h4 className="pricing-name">
-                                        Base
+                                        Project
                                     </h4>
                                     <div className="pricing-title">
-                                        <div className="h1 price-text">$12 <sup>/Month</sup></div>
+                                        <div className="h1 price-text">$NEG <sup>/Minimum</sup></div>
                                         <p>Making this the first true generator on the Internet. It uses a dictionary .</p>
                                     </div>
                                     <ul className="pricing-list">
@@ -76,12 +77,13 @@ const Pricing = () => {
                                         <li>Design Customization</li>
                                         <li>Psd to Html</li>
                                         <li>Html to Reactjs</li>
+                                        <li>Psd to WordPress</li>
                                         <li>Content Upload</li>
                                     </ul>
                                 </div>
                                 <div className="pricing-btn">
                                     <a href="#" className="theme-btn btn-md">Choose Plan</a>
-                                    <span>2 Days Delivery</span>
+                                    <span>Days Delivery</span>
                                 </div>
                             </div>
                         </div>
