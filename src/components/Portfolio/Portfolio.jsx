@@ -30,8 +30,7 @@ const Portfolio = () => {
             <Container fluid>
                 <Row>
                     <Col lg={12}>
-                        <div className="portfolio-slid pt-5">
-                            
+                        <div className="portfolio-slid pt-5"> 
                             <PortfolioLi/>
                         </div>
                     </Col>

@@ -24,7 +24,7 @@ class App extends React.Component {
             {
                 id: 1,
                 image: RoktimHtml,
-                url: 'https://skdevbd.com/codexexpert/TF-ITEM/roktim/RoktimHtml/index.html'
+                url: 'https://themeforest.net/item/roktim-digital-marketing-html-template/25715482?s_rank=1'
             },
             {
                 id: 2,
@@ -39,27 +39,27 @@ class App extends React.Component {
             {
                 id: 4,
                 image: xipper,
-                url: 'https://thepixelcurve.com/html/xipper/index-2.html'
+                url: 'https://themeforest.net/item/xipper-html-landing-page-template-for-app-saas-products/24254599'
             },
             {
                 id: 5,
                 image: fitner,
-                url: 'https://raistheme.com/html/fitner/index-1.html'
+                url: 'https://themeforest.net/item/fitner-creative-html-template-for-gym-fitness-health/24773757'
             },
             {
                 id: 6,
                 image: secrius,
-                url: 'https://raistheme.com/html/secrius/secrius/index.html'
+                url: 'https://themeforest.net/item/secrius-security-services-multipurpose-html-template/25752171?s_rank=1'
             },
             {
                 id: 7,
                 image: pichaora,
-                url: 'https://www.pikrana.com/pichaora-app-landing-page/home-v1.html'
+                url: 'https://themeforest.net/item/pichaora-app-laning-page-html5-template/22572136'
             },
             {
                 id: 8,
                 image: monteck,
-                url: 'http://brotherslab.thesoftking.com/html/monteck/'
+                url: 'https://www.thesoftking.com/item/monteck-sports-club-html-template/206'
             },
             {
                 id: 9,
@@ -74,12 +74,12 @@ class App extends React.Component {
             {
                 id: 11,
                 image: Buildhex,
-                url: 'http://thesoftking.com/html/buildhex/'
+                url: 'https://www.thesoftking.com/item/buildhex-construction-renovation-interior-html-template/155'
             },
             {
                 id: 12,
                 image: adshunt,
-                url: 'https://adshunt.netlify.app/'
+                url: 'https://themeforest.net/item/adshunt-classified-and-listing-html5-template/22819901'
             },
             {
                 id: 13,
