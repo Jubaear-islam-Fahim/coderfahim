@@ -24,7 +24,7 @@ function Banner() {
                         <div className="banner-content">
                             <div className="banner-text-top">
                                 <div className="subtitle">WELCOME TO MY WORLD</div>
-                                <h1 className="title">
+                                <div className="title h1">
                                     Hi, I’m <strong>Fahim</strong> <br/>
                                     <i>a</i>  
                                     <Typical
@@ -32,7 +32,7 @@ function Banner() {
                                         loop={Infinity}
                                         wrapper="span" 
                                     />
-                                </h1> 
+                                </div> 
                                 <p>I am an expert Web Designer and Professional Coder. Also, I have gained comprehensive experience in coding, designing, markup languages, and different things related to the programming area. Always I keep myself updated with the new string of coding and browser compatibility. Personally, I love learning and implementing new skills.  </p>
                                 <a href={Cv} className="button button--hyperion mt-5" download><span><span>Download CV </span></span></a>  
                                 
