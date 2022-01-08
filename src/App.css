@@ -157,6 +157,11 @@ a {
 	text-decoration: none;
 }
 
+html{
+	scroll-padding-top: 3.5px;
+}
+
+
 @media (min-width: 1200px) {
 
 	.h1,
